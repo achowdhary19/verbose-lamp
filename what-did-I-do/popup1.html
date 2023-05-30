@@ -2,27 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
     </head>
 
     <body id = "p1" >
         <p>
-            Read Whereabouts
-            Went to a yard sale, bought <a href="JavaScript:newPopup('shoes.html');">shoes.</a>
+            Read <i>Whereabouts</i> <br>
+            Went to a <a href="picturepages/yardsale.html" onclick="positionedPopup(this.href,'yardsale','270','334','100','300','yes');return false">yard sale,</a> bought <a href="picturepages/shoes.html" onclick="positionedPopup(this.href,'shoes','300','300','500','200','yes');return false">shoes</a>
             <br>
             Went to apocalypse <br>
             Read more <br>
             Took a nap <br>
             Talked to quinn <br>
             Ate something and read about blogging <br>
-            Went on an hour long walk and re listened to the first episode of a podcast I liked. <br>
+            Went on an hour long <a href="picturepages/garden.html" onclick="positionedPopup(this.href,'garden','360','445','330','520','yes');return false">walk</a>, re-listened to the first episode of a podcast I remember enjoying, stared at the <a href="picturepages/flowers.html" onclick="positionedPopup(this.href,'flowers','530','708','600','800','yes');return false">flowers.</a><br>
         </p>
     </body>
 </html>
-
-<script type="text/javascript">
-    function newPopup(url) {
-        popupWindow = window.open(
-            url,'shoes','height=300,width=300,left=200,top=500,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-    }
-</script>
-        
