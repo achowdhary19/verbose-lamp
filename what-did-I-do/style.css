@@ -34,7 +34,7 @@ a:link {
 h1, p{
     font-family: "Favorit", Arial, Helvetica, sans-serif; 
 }
-#p1{
+#p1, #p2 {
     background-image: url("/what-did-I-do/assets/hearts.jpeg");
 }
 
